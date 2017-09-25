@@ -1,0 +1,13 @@
+name: tensorflow.cr
+version: 0.1.0
+
+authors:
+  - bararchy <bar.hofesh@safe-t.com>
+
+targets:
+  tensorflow.cr:
+    main: src/tensorflow.cr.cr
+
+crystal: 0.23.1
+
+license: MIT
