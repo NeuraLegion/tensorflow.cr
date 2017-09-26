@@ -23,11 +23,11 @@ Right now the status is WIP, nothing really works, see specs for current coverag
 ## Development
 
 TODO:  
-- [] Graph  
+- [ ] Graph  
 - [x] Status  
-- [] Tensor  
-- [] Session  
-- [] Ops  
+- [ ] Tensor  
+- [ ] Session  
+- [ ] Ops  
 
 For references and ideas you can use:  
 - [tensorflow.rb](https://github.com/somaticio/tensorflow.rb)  
