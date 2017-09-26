@@ -31,7 +31,7 @@ TODO:
 
 For references and ideas you can use:  
 - [tensorflow.rb](https://github.com/somaticio/tensorflow.rb)  
-- [Offical Docs](https://www.tensorflow.org/extend/language_bindings)  
+- [Official Docs](https://www.tensorflow.org/extend/language_bindings)  
 
 ## Contributing
 
