@@ -1,4 +1,4 @@
-@[Link("tensor")]
+@[Link("tensorflow")]
 lib LibTensorFlow
   # Enums
   enum Code
@@ -76,8 +76,6 @@ lib LibTensorFlow
     index : LibC::Int
   end
 
-  type Operation = Void*
-
   struct Output
     oper : Operation
     index : LibC::Int
@@ -95,21 +93,23 @@ lib LibTensorFlow
   end
 
   # Aliases
-  alias Status = Void
+
   alias X__Int64T = LibC::Long
   alias Int64T = X__Int64T
-  alias Tensor = Void
-  alias OperationDescription = Void
-  alias Operation = Void
-  alias SessionOptions = Void
-  alias ImportGraphDefOptions = Void
-  alias Graph = Void
-  alias Session = Void
-  alias Library = Void
-  alias DeviceList = Void
-  alias DeprecatedSession = Void
+  # alias Status = Void
+  # alias Tensor = Void
+  # alias OperationDescription = Void
+  # alias Operation = Void
+  # alias SessionOptions = Void
+  # alias ImportGraphDefOptions = Void
+  # alias Graph = Void
+  # alias Session = Void
+  # alias Library = Void
+  # alias DeviceList = Void
+  # alias DeprecatedSession = Void
 
   # Types
+  type Operation = Void*
   type Status = Void*
   type Tensor = Void*
   type SessionOptions = Void*

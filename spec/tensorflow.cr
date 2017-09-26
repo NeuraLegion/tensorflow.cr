@@ -1,6 +1,6 @@
 require "./spec_helper"
 
-describe Tensorflow.cr do
+describe TensorFlow do
   # TODO: Write tests
 
   it "works" do

@@ -1,5 +1,5 @@
 require "./tensorflow/**"
 
-module Tensorflow
+module TensorFlow
   # TODO Put your code here
 end
